@@ -1,0 +1,33 @@
+{
+  "name": "tts_mastertran",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CongPp1/TTS_HRM.git"
+  },
+  "keywords": [
+    "HRM"
+  ],
+  "author": "congtt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CongPp1/TTS_HRM/issues"
+  },
+  "homepage": "https://github.com/CongPp1/TTS_HRM#readme",
+  "dependencies": {
+    "database": "^0.0.2",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20"
+  }
+}
